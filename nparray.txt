@@ -1,0 +1,40 @@
+help (np.array)
+np,array ((1,2,3,4))
+np.array (((1,2),(3,4)))
+np.array([1, 2, 3],"complex")
+
+np.arange (1,10)
+np.arange (3.0)
+np.arange (1,10,2)
+np.arange (20,dtype="complex")
+np.arange (1,10,2,dtype="float")
+
+np.zeros (5)
+np.zeros (3,dtype="int")
+np.zeros ((2,3))
+np.zeros ((3,4))
+np.zeros (4, order="F")
+np.zeros ((3,4), order="F")
+
+np.ones (8)
+np.ones (7,dtype="int")
+np.ones ((3,4))
+
+np.empty (6)
+np.empty ((3,6),dtype="int")
+
+np.linspace(1,100,10)
+np.linspace(1,100,num=5)
+np.linspace(1,100,num=5,endpoint=False)
+np.linspace(1,100,num=4,retstep=True)
+np.linspace(1,100,num=4,dtype=int)
+default steps in linspace is 50
+
+np.eye (5)
+np.eye (2,3)
+np.eye (4,k=-1)
+np.eye (5,k=2)
+np.eye (5,dtype=int)
+
+np.identity (4)
+np.identity (5,dtype=int)

@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+plt,plot((1,,2,3,4),(5,,6,7,8))
+plt.xlabel("Sumbu X")
+plt.ylabel("Sumbu Y")
+plt,title("Plot ke-1")
+plt.show()
+
+plt.plot ((10,20,30,40),"g") 
+plt.plot ((10,20,30,40),color="green")
+plt.plot ((10,20,30,40),"g+",markersize=20)
+plt.plot ((10,20,30,40),"g+",linewidth=20)
+
+plt.plot((10,20,30,40),"g",(5,6,7,8),"ro")

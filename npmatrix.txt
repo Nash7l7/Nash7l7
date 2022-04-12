@@ -1,0 +1,19 @@
+a=np.array((1,2),(3,4))
+b=np.array((10,20),(30,40))
+a+b
+a*b
+a.dot(b)
+a.transpose()
+np.transpose(a)
+c=np.linalg.inv(a)
+np.linalg.matrix_power(a,2) == np.dot(a,a) == a.dot(a)
+np.linalg.mattix_power(a,5) | (a,0)
+np.linalg.matrix_power(a,-2) == np.linalg.matrix_power(c,2)
+np.linalg.det(a) | round(np.linalg.det(a))
+np.linalg.solve (j,k)
+
+a=np.matrix("1,2;3,4")
+b=np.matrix("10,20;30,40")
+a+b
+a*b
+a.T or b.T
